@@ -20,7 +20,7 @@ import json
 
 # Add parent directory to path for imports
 sys.path.append(str(Path(__file__).parent.parent))
-from llama.model import MoT
+from llama.model import Transformer as MoT
 
 class CloudMusicCapsDataset(torch.utils.data.Dataset):
     """Dataset for pre-encoded MusicCaps tokens from HuggingFace."""
