@@ -1,0 +1,28 @@
+# Lambda Labs GPU Training Requirements
+# For MoT (Mixture-of-Transformers) Adapter Training
+
+# Core ML
+torch>=2.1.0
+transformers>=4.36.0
+datasets>=2.15.0
+accelerate>=0.24.0
+
+# Audio processing
+torchaudio>=2.1.0
+soundfile>=0.12.0
+librosa>=0.10.0
+
+# Monitoring & logging
+wandb>=0.16.0
+tensorboard>=2.15.0
+
+# Utils
+tqdm>=4.66.0
+numpy>=1.24.0
+pandas>=2.1.0
+huggingface-hub>=0.19.0
+
+# Optional optimizations
+bitsandbytes>=0.41.0  # For 8-bit Adam
+ninja>=1.11.0  # For faster compilation
+packaging>=23.0
